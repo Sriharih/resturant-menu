@@ -58,7 +58,7 @@
                 name: "Pani puri",
                 amount: 20,
                 description: "Bored evening always deserved a PANI PURI ! 😊",
-                images: "./assessts/images/Pani Puri.JPG",
+                images: "./assessts/images/panipuri.jpg",
                 issnacks: true
             },
             {
