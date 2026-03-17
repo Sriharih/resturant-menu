@@ -1,0 +1,45 @@
+        *{
+            font-family: "Open Sans";
+        }
+        #ordered{
+            min-height: 100px;
+            width: 100%;
+
+            padding: 10px;
+        }
+        #design_needs{
+            border: 2px solid rgb(12, 151, 161);
+        }
+        #design_needs h5,button{
+            margin: 10px;
+        }
+        .booked-item {
+            border-bottom: 1px solid #ddd;
+            margin-bottom: 5px;
+        }
+        .nav-item :hover{
+            color: rgb(0, 255, 55)!important;
+        }
+        .card img{
+            height: 200px;
+            transition: 1s;
+        }
+        .inner{
+            overflow: hidden;
+        }
+        .card img:hover{
+            transform: scale(1.5);
+            transition: 1s;
+        }
+        .card{
+            box-shadow: 2px 2px 0px 0px  rgba(12, 151, 161,0.5);
+        }
+        #items{
+            margin-top: 15px;
+        }
+        body{
+            
+         background-color: whitesmoke;
+         
+            
+        }
