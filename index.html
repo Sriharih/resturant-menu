@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Main Assessment</title>
+    <link rel="stylesheet" href="./css/lib/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/fonts/robotofont.css">
+    <link rel="stylesheet" href="./css/style.css">
+
+
+</head>
+<body>
+
+        <div class="container-fluid">
+
+            <nav class="navbar navbar-expand-lg border-bottom border-body bg-dark">
+            <div class="container-fluid">
+            <a class="navbar-brand fs-5 text-info" href="#"><h3 style="font-weight: 800; font-size:xx-large;">Menu</h3></a>
+            <button class="navbar-toggler bg-info" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarText">
+            <ul class="navbar-nav justify-content-center mx-auto fs-4">
+                <li class="nav-item">
+                    <a class="nav-link text-info" aria-current="page" href="#" id="all_items">All</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-info " href="#" id="breakfast">Breakfast</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-info " href="#" id="lunch">Lunch</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-info " aria-disabled="true" id="snacks">Snacks</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-info " aria-disabled="true" id="dinner">Dinner</a>
+                </li>
+            </ul>
+
+            </div>
+            </div>
+            </nav>
+        </div>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-7 col-md-8 col-12 mx-lg-5 mx-0" id="items">
+                    
+                </div>
+                <div class="col-lg-4 col-md-4 col-12" >
+                    <h3>Preview</h3>
+                    <div id="design_needs">
+                    <h5>Booked Foods</h5>
+                    <div id="ordered">
+
+                    </div>
+                    <button onclick="conform()" class="btn btn-info">Conform</button>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+<script src="./script/script.js"></script>
+<script src="./script/lib/bootstrap.bundle.min.js"></script>
+</body>
+</html>
